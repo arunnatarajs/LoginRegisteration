@@ -1,0 +1,49 @@
+input[type="email"], input[type=password] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  input[type="submit"] {
+    background-color: #56baed;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    align-content: center;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: 0.8;
+  }
+  
+  .main-container {
+    padding-left: 40%;
+    padding-top: 100px;
+  }
+.container{
+    border:solid 2px orange;
+    border-radius: 25px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    animation: fadeIn 1s ease-in both;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
