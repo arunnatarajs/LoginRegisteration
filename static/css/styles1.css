@@ -18,6 +18,11 @@ input[type="email"], input[type=password] {
     width: auto;
     text-align: center;
     align-content: center;
+
+    background: #536976;  
+    background: -webkit-linear-gradient(to right, #292E49, #536976); 
+    background: linear-gradient(to right, #292E49, #536976); 
+    
   }
   
   input[type="submit"]:hover {
@@ -29,13 +34,14 @@ input[type="email"], input[type=password] {
     padding-top: 100px;
   }
 .container{
-    border:solid 2px orange;
+    border: 2px;
     border-radius: 25px;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     animation: fadeIn 1s ease-in both;
+    background: white;
 }
 
 @keyframes fadeIn {
@@ -46,4 +52,12 @@ input[type="email"], input[type=password] {
 	to {
 		opacity: 1;
 	}
+}
+
+.body_css{
+ 
+  background: #16222A; 
+  background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+  background: linear-gradient(to right, #3A6073, #16222A); 
+  
 }
